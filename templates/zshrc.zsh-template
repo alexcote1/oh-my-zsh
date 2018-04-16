@@ -101,4 +101,4 @@ source $ZSH/oh-my-zsh.sh
 export MSF_DATABASE_CONFIG=~/.msf4/database.yml
 alias msf=msfconsole
  
-source ~/.oh-my-zsh/themes/powerlevel9k.zsh-theme
+source  ~/powerlevel9k/powerlevel9k.zsh-theme
