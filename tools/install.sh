@@ -61,7 +61,7 @@ main() {
       exit 1
     fi
   fi
-  env git clone git clone https://github.com/bhilburn/powerlevel9k.git ~/powerlevel9k
+  env git clone https://github.com/bhilburn/powerlevel9k.git ~/powerlevel9k
   env git clone --depth=1 https://github.com/robbyrussell/oh-my-zsh.git $ZSH || {
     printf "Error: git clone of oh-my-zsh repo failed\n"
     exit 1
