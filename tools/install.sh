@@ -94,7 +94,7 @@ main() {
       printf "${BLUE}Please manually change your default shell to zsh!${NORMAL}\n"
     fi
   fi
-
+echo 'source  ~/powerlevel9k/powerlevel9k.zsh-theme' >> ~/.zshrc  
   printf "${GREEN}"
   echo '         __                                     __   '
   echo '  ____  / /_     ____ ___  __  __   ____  _____/ /_  '
